@@ -21,7 +21,7 @@ public class Ejemplo03 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int limite = 5;
+        int limite = 10;
         int contador = 1;
         int suma = 0;
         int valor_ingresado;
