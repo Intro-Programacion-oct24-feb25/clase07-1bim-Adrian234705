@@ -16,12 +16,12 @@ public class Ejemplo011 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int contador = 1;
+        int variable = 1;
         int limite = 13;
         
-        while(contador<=limite){
-        System.out.printf("%d\n ",variable); 
-        variable = variable + 1; 
+        while(variable<=limite){
+            System.out.printf("%d\n ",variable); 
+            variable = variable + 1; 
         
         
         
