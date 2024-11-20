@@ -21,7 +21,7 @@ public class Ejemplo01 {
         System.out.printf("%d\n", 3);
         System.out.printf("%d\n", 4);
         System.out.printf("%d\n", 5);
-        System.out.printf("%d\n", 6);
+        System.out.printf("%d\n", 6); 
         System.out.printf("%d\n", 7);
         System.out.printf("%d\n", 8);
         System.out.printf("%d\n", 9);
