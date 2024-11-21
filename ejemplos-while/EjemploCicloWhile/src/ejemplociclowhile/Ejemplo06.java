@@ -30,7 +30,7 @@ public class Ejemplo06 {
         System.out.println("Ingrese las notas de los "
                 + "estudiantes de su materia");
         // true 
-        // while (bandera) {
+        // while (bandera) { // estas dos lineas son exactamente los mismo siempre y cuando sea boleano 
         while(bandera==true){
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
@@ -45,7 +45,7 @@ public class Ejemplo06 {
             int temporal = entrada.nextInt();
 
             if (temporal == -1) {
-                bandera = false;
+                bandera = false ;
             }
         }
 
