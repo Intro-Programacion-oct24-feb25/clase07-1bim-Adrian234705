@@ -50,14 +50,15 @@ public class Ejemplo102 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int limite_tabla = 12;
+        int limite_tabla ;
         int contador = 1;
         int operacion;
         int tabla;
         
         System.out.println("Ingrese el número de tabla a generar");
         tabla = entrada.nextInt();
-        
+        System.out.println("Ingrese el limite de la tabla"); 
+        limite_tabla = entrada.nextInt(); 
         String cadena = "";
         String cadenaSuma = "";
         String cadenaResta = "";
@@ -93,7 +94,8 @@ public class Ejemplo102 {
         }
         
         cadena = String.format("Tabla de Sumar \n%s\n"
-                + "Tabla de Restar \n%s\n", cadenaSuma, cadenaResta); 
+                + "Tabla de Restar \n%s\n Tabla Multiplicaion\n%s\n" , cadenaSuma, cadenaResta, 
+                cadenaMultiplicacion); 
                 
         System.out.printf("%s\n", cadena);
         
